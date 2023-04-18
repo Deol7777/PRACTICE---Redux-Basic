@@ -16,7 +16,7 @@ const updateTotal = (state, price, type) =>
 }
 const cartSlice = createSlice({
   name: "cart",
-  initialState: { itemList: [], total :0 },
+  initialState: { itemList: [] },
   reducers: {
     addItem(state, action) {
       console.log("ID received in the reducer: " + action.payload);

@@ -11,10 +11,6 @@ const Cart = (props) => {
     return state.cart.itemList;
   })
 
-  const cartTotal = useSelector((state) => {
-    return state.cart.cartTotal;
-  });
-
 
   for( const item of cartItemsList)
   {
